@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "Bleeding_Cowboys"; /* Name your font whatever you like */
+  src: url('../assets/fonts/Bleeding_Cowboys.ttf') format("truetype"); /* Correct path to your file */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* Optional: controls how fonts load to prevent invisible text */
+}
+
+h1, h2, h3 {
+  font-family: "Bleeding_Cowboys", Arial, sans-serif; /* Include fallback fonts */
+}
